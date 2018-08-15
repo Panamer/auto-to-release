@@ -1,9 +1,4 @@
-# vue-vuex
-
-> A Vue.js project
-
-## Build Setup
-
+一个脚本：通过命令行完成部署测试环境代码，npm run release 依赖ssh2-sftp-client
 ``` bash
 # install dependencies
 npm install

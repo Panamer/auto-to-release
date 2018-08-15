@@ -8,9 +8,10 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "release": "npm run build && node build/upload.js"
+    "release": "node build/upload.js"
   },
   "dependencies": {
+    "ssh2-sftp-client": "^3.1.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

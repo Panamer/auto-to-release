@@ -15,14 +15,10 @@ const spinner = ora('开始上传...').start()
 
 // 连接 sftp
 sftp.connect({
-    // host: '10.152.17.109',
-    // port: '22',
-    // username: 'root',
-    // password: 'm6$loy,=(ILj7_`L3/N>~nqj7'
-    host: '47.96.162.246',
+    host: '47.96.162.26',
     port: '',
     username: 'root',
-    password: 'A631dca800e4'
+    password: 'A631dca800e'
 }).then(() => {
     // 先删除目录
     return sftp.rmdir(remotePath, true)

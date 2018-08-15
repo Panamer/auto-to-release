@@ -14,6 +14,5 @@ npm run dev
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+npm run release 将build完成的文件部署到服务器上。部署和打包同时完成是可以实现的
 ```

@@ -10,4 +10,5 @@ npm run dev
 npm run build
 
 npm run release 将build完成的文件部署到服务器上。部署和打包同时完成是可以实现的
+搞一下单元测试
 ```
